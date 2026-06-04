@@ -1,0 +1,29 @@
+body {
+    background: #f5f7fa;
+}
+
+.custom-card {
+    transition: all 0.4s ease;
+    height: 100%;
+}
+
+.custom-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.card-image img {
+    object-fit: cover;
+}
+
+.hero {
+    background: linear-gradient(135deg, #3273dc, #00d1b2);
+}
+
+.footer {
+    margin-top: 40px;
+}
+
+.title {
+    font-weight: 700;
+}
